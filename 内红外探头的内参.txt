@@ -1,0 +1,7 @@
+FocalLengthX : 366.192
+FocalLengthY : 366.192
+PrincipalPointX : 257.039
+PrincipalPointY : 208.934
+RadialDistortionFourthOrder : -0.270117
+RadialDistortionSecondOrder : 0.0912869
+RadialDistortionSixthOrder : 0.0944314

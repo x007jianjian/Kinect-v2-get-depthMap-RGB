@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>C:\Users\dell\Desktop\yjf\opencv\build\include\opencv2;C:\Users\dell\Desktop\yjf\opencv\build\include;C:\Users\dell\Desktop\yjf\glew-2.1.0\include;C:\Users\dell\Desktop\yjf\freeglut\include;$(IncludePath)</IncludePath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+    <LibraryPath>C:\Users\dell\Desktop\yjf\opencv\build\x64\vc14\lib;C:\Users\dell\Desktop\yjf\glew-2.1.0\lib\Release\x64;C:\Users\dell\Desktop\yjf\freeglut\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\dell\Desktop\yjf\opencv\build\x64\vc14\lib;C:\Users\dell\Desktop\yjf\glew-2.1.0\lib\Release\x64;$(KINECTSDK20_DIR)/lib/x64;C:\Users\dell\Desktop\yjf\freeglut\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world440d.lib;glew32.lib;kinect20.lib;opengl32.lib;glu32.lib;freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(KINECTSDK20_DIR)/inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
